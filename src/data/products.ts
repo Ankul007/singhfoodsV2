@@ -37,15 +37,6 @@ export const products: Product[] = [
     category: 'jams'
   },
   {
-    id: 'green_mint',
-    name: 'Green Mint',
-    description: 'Cooling mocktail with fresh mint, zesty lime, and vibrant green hue',
-    price: '1200',
-    volume: '500ml',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734196023/green_mint_exlgok.jpg',
-    category: 'premium syrup'
-  },
-  {
     id: 'chocolate_syrup',
     name: 'Choclate syrup',
     description: 'Rich and smooth chocolate syrup, perfect for drizzling over desserts and drinks',
