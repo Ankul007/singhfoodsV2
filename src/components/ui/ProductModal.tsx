@@ -36,11 +36,11 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
             )}
           </button>
         </div>
-        <div className="p-6 md:w-1/2">
+        <div className="p-12 md:w-1/2">
           <div className="mb-4">
             <div className="flex justify-between items-start">
               <h2 className="text-2xl font-bold text-amber-900">{product.name}</h2>
-              <span className="text-xl font-bold text-amber-600">${product.price}</span>
+              <span className="text-xl font-bold text-amber-600">₹{product.price}</span>
             </div>
             <span className="inline-block mt-2 px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm">
               {product.category}

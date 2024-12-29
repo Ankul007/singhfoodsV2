@@ -10,13 +10,57 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: 'aam_panna',
-    name: 'aam panna',
-    description: 'Refreshing raw mango with tangy, sweet, and spicy flavors',
+    id: 'safforn',
+    name: 'safforn',
+    description: 'Luxurious mocktail with aromatic saffron, adding a rich, floral flavor',
     price: '1200',
     volume: '750ml',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734196021/aam_panna_aqtv4a.jpg',
-    category: 'seasonal syrup'
+    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734196025/saffron_mocktail.jpg_zlb9wr.jpg',
+    category: 'premium syrup'
+  },
+  {
+    id: 'pina_colada',
+    name: 'pina colada',
+    description: 'Tropical mocktail blending creamy coconut and sweet pineapple for a refreshing escape.',
+    price: '1400',
+    volume: '750ml',
+    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734200289/pina-colada_wksn7z.jpg',
+    category: 'premium syrup'
+  },{
+    id: 'sugar_syrup',
+    name: 'sugar syrup',
+    description: 'Simple sweetener made from dissolved sugar, ideal for cocktails and mocktails.',
+    price: '1200',
+    volume: '750ml',
+    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734201250/sugar_syrup_pwwrqa.jpg',
+    category: 'premium syrup'
+  },
+  {
+    id: 'lime_juice',
+    name: 'Lime Juice',
+    description: 'Tangy lime juice, adding a refreshing citrus twist to cocktails and mocktails',
+    price: '800',
+    volume: '250ml',
+    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734196024/lime_juice_1_ukfume.jpg',
+    category: 'fruit juices'
+  },
+  {
+    id: 'green_mint',
+    name: 'green mint',
+    description: 'Refreshing syrup with a cool minty flavor, ideal for vibrant mocktails',
+    price: '1200',
+    volume: '750ml',
+    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734200649/gren_mint_g12ug9.jpg',
+    category: 'premium syrup'
+  },
+  {
+    id: 'hazelnut',
+    name: 'hazelnut',
+    description: 'Rich and nutty hazelnut syrup, adding warmth to coffee and desserts.',
+    price: '1200',
+    volume: '750ml',
+    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734200791/hazelnut_ufejer.jpg',
+    category: 'premium syrup'
   },
   {
     id: 'bubble_gum',
@@ -55,15 +99,6 @@ export const products: Product[] = [
     category: 'premium syrup'
   },
   {
-    id: 'lime_juice',
-    name: 'Lime Juice',
-    description: 'Tangy lime juice, adding a refreshing citrus twist to cocktails and mocktails',
-    price: '800',
-    volume: '250ml',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734196024/lime_juice_1_ukfume.jpg',
-    category: 'fruit juices'
-  },
-  {
     id: 'green_apple',
     name: 'Green Apple',
     description: 'Crisp mocktail blending tart green apple with a refreshing twist',
@@ -91,12 +126,30 @@ export const products: Product[] = [
     category: 'premium syrup'
   },
   {
-    id: 'safforn',
-    name: 'safforn',
-    description: 'Luxurious mocktail with aromatic saffron, adding a rich, floral flavor',
+    id: 'aam_panna',
+    name: 'aam panna',
+    description: 'Refreshing raw mango with tangy, sweet, and spicy flavors',
     price: '1200',
     volume: '750ml',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734196025/saffron_mocktail.jpg_zlb9wr.jpg',
+    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734196021/aam_panna_aqtv4a.jpg',
+    category: 'seasonal syrup'
+  },
+  {
+    id: 'blue_curacao',
+    name: 'blue curacao',
+    description: 'Vibrant blue mocktail syrup with tangy orange flavor, perfect for tropical drinks.',
+    price: '1200',
+    volume: '750ml',
+    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734200544/blue_curacao_y2wyfr.jpg',
+    category: 'premium syrup'
+  },
+  {
+    id: 'water_melon',
+    name: 'water melon',
+    description: 'Refreshing watermelon syrup with sweet, fruity notes, perfect for summer drinks.',
+    price: '1200',
+    volume: '750ml',
+    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734201098/watermelon_hwnoet.jpg',
     category: 'premium syrup'
   },
   {
@@ -107,63 +160,6 @@ export const products: Product[] = [
     volume: '500g/1Kg',
     image: 'https://drive.google.com/file/d/18GQqKFo7AlICpVgxuyDfYCaLwJgYxRKz/view',
     category: 'pickles'
-  },
-  {
-    id: 'pina_colada',
-    name: 'pina colada',
-    description: 'pina colada',
-    price: '1400',
-    volume: '500g/1Kg',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734200289/pina-colada_wksn7z.jpg',
-    category: 'premium syrup'
-  },
-  {
-    id: 'blue_curacao',
-    name: 'blue curacao',
-    description: 'blue_curacao',
-    price: '1200',
-    volume: '750ml',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734200544/blue_curacao_y2wyfr.jpg',
-    category: 'premium syrup'
-  },
-  {
-    id: 'green_mint',
-    name: 'green mint',
-    description: 'gren_mint',
-    price: '1200',
-    volume: '750ml',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734200649/gren_mint_g12ug9.jpg',
-    category: 'premium syrup'
-  },
-  {
-    id: 'hazelnut',
-    name: 'hazelnut',
-    description: 'hazelnut',
-    price: '1200',
-    volume: '750ml',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734200791/hazelnut_ufejer.jpg',
-    category: 'premium syrup'
-  },
-  {
-    id: 'water_melon',
-    name: 'water melon',
-    description: 'water melon',
-    price: '1200',
-    volume: '750ml',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734201098/watermelon_hwnoet.jpg',
-    category: 'premium syrup'
-  },
-  {
-    id: 'sugar_syrup',
-    name: 'sugar syrup',
-    description: 'sugar syrup',
-    price: '1200',
-    volume: '750ml',
-    image: 'https://res.cloudinary.com/dzyfmxk4c/image/upload/v1734201250/sugar_syrup_pwwrqa.jpg',
-    category: 'premium syrup'
   }
-
-
-
   
 ];

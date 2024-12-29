@@ -19,7 +19,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className="p-6">
           <div className="flex justify-between items-start">
             <h3 className="text-lg font-semibold text-amber-900">{product.name}</h3>
-            <span className="text-amber-600 font-bold">${product.price}</span>
+            <span className="text-amber-600 font-bold">₹{product.price}</span>
           </div>
           <p className="mt-2 text-amber-700">{product.description}</p>
           <div className="mt-4 flex justify-between items-center">
